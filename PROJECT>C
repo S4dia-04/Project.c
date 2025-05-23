@@ -1,0 +1,154 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int score = 0;
+    int answer;
+
+    printf("Idioms and Their Meanings Quiz\n");
+    printf("-------------------------------\n");
+
+    printf("\n1. What does 'Break the ice' mean?\n");
+    printf("1) To make people feel relaxed\n");
+    printf("2) To destroy something frozen\n");
+    printf("3) To start a fight\n");
+    printf("4) To tell a secret\n");
+    printf("Your answer: ");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        printf("Correct!\n");
+        score += 10;
+    } else {
+        printf("Wrong! The correct answer is 1.\n");
+    }
+
+    printf("\n2. What does 'Hit the sack' mean?\n");
+    printf("1) To go to bed\n");
+    printf("2) To punch a bag\n");
+    printf("3) To quit a job\n");
+    printf("4) To be angry\n");
+    printf("Your answer: ");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        printf("Correct!\n");
+        score += 10;
+    } else {
+        printf("Wrong! The correct answer is 1.\n");
+    }
+
+    printf("\n3. What does 'Let the cat out of the bag' mean?\n");
+    printf("1) To free a pet\n");
+    printf("2) To reveal a secret\n");
+    printf("3) To cause trouble\n");
+    printf("4) To be confused\n");
+    printf("Your answer: ");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        printf("Correct!\n");
+        score += 10;
+    } else {
+        printf("Wrong! The correct answer is 2.\n");
+    }
+
+    printf("\n4. What does 'Under the weather' mean?\n");
+    printf("1) Feeling sick\n");
+    printf("2) Trapped in a storm\n");
+    printf("3) Feeling emotional\n");
+    printf("4) Being moody\n");
+    printf("Your answer: ");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        printf("Correct!\n");
+        score += 10;
+    } else {
+        printf("Wrong! The correct answer is 1.\n");
+    }
+
+    printf("\n5. What does 'Bite the bullet' mean?\n");
+    printf("1) To get injured\n");
+    printf("2) To do something unpleasant\n");
+    printf("3) To start a fight\n");
+    printf("4) To act tough\n");
+    printf("Your answer: ");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        printf("Correct!\n");
+        score += 10;
+    } else {
+        printf("Wrong! The correct answer is 2.\n");
+    }
+
+    printf("\n6. What does 'Cost an arm and a leg' mean?\n");
+    printf("1) To be very expensive\n");
+    printf("2) To lose a fight\n");
+    printf("3) To give everything away\n");
+    printf("4) To suffer a lot\n");
+    printf("Your answer: ");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        printf("Correct!\n");
+        score += 10;
+    } else {
+        printf("Wrong! The correct answer is 1.\n");
+    }
+
+    printf("\n7. What does 'The ball is in your court' mean?\n");
+    printf("1) You are playing tennis\n");
+    printf("2) It's your turn to decide\n");
+    printf("3) You are in trouble\n");
+    printf("4) You are being blamed\n");
+    printf("Your answer: ");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        printf("Correct!\n");
+        score += 10;
+    } else {
+        printf("Wrong! The correct answer is 2.\n");
+    }
+
+    printf("\n8. What does 'Spill the beans' mean?\n");
+    printf("1) Make a mess\n");
+    printf("2) Reveal a secret\n");
+    printf("3) Cook badly\n");
+    printf("4) Tell a lie\n");
+    printf("Your answer: ");
+    scanf("%d", &answer);
+    if (answer == 2) {
+        printf("Correct!\n");
+        score += 10;
+    } else {
+        printf("Wrong! The correct answer is 2.\n");
+    }
+
+    printf("\n9. What does 'Kick the bucket' mean?\n");
+    printf("1) Start a journey\n");
+    printf("2) Break something\n");
+    printf("3) Die\n");
+    printf("4) Clean the floor\n");
+    printf("Your answer: ");
+    scanf("%d", &answer);
+    if (answer == 3) {
+        printf("Correct!\n");
+        score += 10;
+    } else {
+        printf("Wrong! The correct answer is 3.\n");
+    }
+
+    printf("\n10. What does 'Piece of cake' mean?\n");
+    printf("1) Something very easy\n");
+    printf("2) A dessert\n");
+    printf("3) A broken promise\n");
+    printf("4) A difficult task\n");
+    printf("Your answer: ");
+    scanf("%d", &answer);
+    if (answer == 1) {
+        printf("Correct!\n");
+        score += 10;
+    } else {
+        printf("Wrong! The correct answer is 1.\n");
+    }
+
+    printf("\nYou scored %d out of 100.\n", score);
+
+    return 0;
+}
